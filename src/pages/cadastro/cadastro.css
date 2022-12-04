@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Manrope',sans-serif;
+}
+html{
+  --blue:hsla(191, 100%, 42%, 1);
+  --grey: hsla(0, 0%, 44%, 1);
+  --grey-input: hsla(0, 0%, 88%, 1);
+  --bluer-hover:rgb(52, 218, 255);
+
+overflow: hidden;
+}
+
+
+.container{
+  display: flex;
+  
+}
+.foto img{
+  width: 36rem;
+  height: 100vh;
+ 
+}
+.cadastro{
+  margin-top: 10rem;
+  margin-left: 1.76rem;
+ 
+}
+.cadastro .title{
+  margin-bottom: 1.87rem;
+  
+}
+.cadastro .title h2{
+  font-weight: 800;
+  font-size: 2rem;
+  color: var(--blue);
+  margin-bottom: 0.3rem;
+}
+.cadastro .title p{
+  font-family: 'Grotesk',sans-serif;
+  color: var(--grey);
+ 
+}
+
+.cadastro .form .espac-box input{
+
+width: 26.8rem;
+height: 2rem;
+border: none;
+font-family: 'Space Grotesk',sans-serif;
+font-size: 1.2rem;
+
+}
+.cadastro .form .espac-box{
+  border-bottom: 1px solid var(--grey-input);
+margin-bottom: 0.93rem;
+}
+.cadastro .form .button-cad input{
+  margin-top: 1.87rem;
+ background-color: var(--blue);
+ border: none;
+ color: white; 
+ width: 26.87rem;
+ height: 3.75rem;
+ border-radius:0.37rem ;
+ font-family: 'Space Grotesk',sans-serif;
+ font-size: 1rem;
+ cursor: pointer;
+ transition: 0.3s;
+
+}
+.cadastro .form .button-cad input:hover{
+  background-color:var(--bluer-hover) ;
+}
+.footer{
+  display: flex;
+  margin-left: 7.16rem;
+  margin-top: 2rem;
+}
+.footer a{
+  cursor: pointer;
+}
+
+
